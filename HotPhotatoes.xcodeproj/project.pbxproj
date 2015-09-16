@@ -7,35 +7,76 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		057ADE8A1FF8E32CCA3989DD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00362F380D237A4C5EA07C61 /* libPods.a */; };
+		7B0137B61B9FB0000014A4D4 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0137B51B9FB0000014A4D4 /* SignUpController.swift */; };
+		7B4950E41B9F9F0100F2401B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4950DD1B9F9F0100F2401B /* Bolts.framework */; };
+		7B4950E51B9F9F0100F2401B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4950DE1B9F9F0100F2401B /* Parse.framework */; };
+		7B4950E61B9F9F0100F2401B /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4950DF1B9F9F0100F2401B /* ParseCrashReporting.framework */; };
+		7B4950E71B9F9F0100F2401B /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4950E01B9F9F0100F2401B /* ParseFacebookUtils.framework */; };
+		7B4950E81B9F9F0100F2401B /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4950E11B9F9F0100F2401B /* ParseFacebookUtilsV4.framework */; };
+		7B4950E91B9F9F0100F2401B /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4950E21B9F9F0100F2401B /* ParseTwitterUtils.framework */; };
+		7B4950EA1B9F9F0100F2401B /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4950E31B9F9F0100F2401B /* ParseUI.framework */; };
+		7B4950ED1B9F9FBD00F2401B /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4950EC1B9F9FBD00F2401B /* Accounts.framework */; };
+		7B4950EF1B9F9FC500F2401B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4950EE1B9F9FC500F2401B /* AudioToolbox.framework */; };
+		7B4950F11B9F9FCB00F2401B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4950F01B9F9FCB00F2401B /* CFNetwork.framework */; };
+		7B4950F31B9F9FD200F2401B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4950F21B9F9FD200F2401B /* CoreGraphics.framework */; };
+		7B4950F51B9F9FD900F2401B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4950F41B9F9FD900F2401B /* CoreLocation.framework */; };
+		7B4950F71B9F9FE500F2401B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4950F61B9F9FE500F2401B /* QuartzCore.framework */; };
+		7B4950F91B9F9FEA00F2401B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4950F81B9F9FEA00F2401B /* Security.framework */; };
+		7B4950FB1B9F9FF200F2401B /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4950FA1B9F9FF200F2401B /* Social.framework */; };
+		7B4950FD1B9FA00800F2401B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4950FC1B9FA00800F2401B /* StoreKit.framework */; };
+		7B4950FF1B9FA01100F2401B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4950FE1B9FA01100F2401B /* SystemConfiguration.framework */; };
+		7B4951011B9FA02400F2401B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4951001B9FA02400F2401B /* libz.dylib */; };
+		7B4951031B9FA02C00F2401B /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4951021B9FA02C00F2401B /* libsqlite3.dylib */; };
+		7B4951051B9FA3AF00F2401B /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4951041B9FA3AF00F2401B /* FriendViewController.swift */; };
+		7B540DAE1BA920CC000316AA /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 7B540DAD1BA920CC000316AA /* Podfile */; };
+		7BA4D7A71BA2720500BDDF7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BA4D7A61BA2720500BDDF7F /* Main.storyboard */; };
+		7BA4D7A91BA2731000BDDF7F /* hotPhotato.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BA4D7A81BA2731000BDDF7F /* hotPhotato.png */; };
 		7BEC63061B9F9C0400BCCAB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEC63051B9F9C0400BCCAB6 /* AppDelegate.swift */; };
 		7BEC63081B9F9C0400BCCAB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEC63071B9F9C0400BCCAB6 /* ViewController.swift */; };
-		7BEC630B1B9F9C0400BCCAB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BEC63091B9F9C0400BCCAB6 /* Main.storyboard */; };
 		7BEC630D1B9F9C0400BCCAB6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BEC630C1B9F9C0400BCCAB6 /* Images.xcassets */; };
 		7BEC63101B9F9C0400BCCAB6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BEC630E1B9F9C0400BCCAB6 /* LaunchScreen.xib */; };
 		7BEC631C1B9F9C0400BCCAB6 /* HotPhotatoesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEC631B1B9F9C0400BCCAB6 /* HotPhotatoesTests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		7BEC63161B9F9C0400BCCAB6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7BEC62F81B9F9C0400BCCAB6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7BEC62FF1B9F9C0400BCCAB6;
-			remoteInfo = HotPhotatoes;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		00362F380D237A4C5EA07C61 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BF1E8E509953AB93762ADDC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		762DE12A957B533724D02D1F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7B0137B51B9FB0000014A4D4 /* SignUpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		7B4950DD1B9F9F0100F2401B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../Downloads/parse-library-1/Bolts.framework"; sourceTree = "<group>"; };
+		7B4950DE1B9F9F0100F2401B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../Downloads/parse-library-1/Parse.framework"; sourceTree = "<group>"; };
+		7B4950DF1B9F9F0100F2401B /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseCrashReporting.framework; path = "../../Downloads/parse-library-1/ParseCrashReporting.framework"; sourceTree = "<group>"; };
+		7B4950E01B9F9F0100F2401B /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = "../../Downloads/parse-library-1/ParseFacebookUtils.framework"; sourceTree = "<group>"; };
+		7B4950E11B9F9F0100F2401B /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtilsV4.framework; path = "../../Downloads/parse-library-1/ParseFacebookUtilsV4.framework"; sourceTree = "<group>"; };
+		7B4950E21B9F9F0100F2401B /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseTwitterUtils.framework; path = "../../Downloads/parse-library-1/ParseTwitterUtils.framework"; sourceTree = "<group>"; };
+		7B4950E31B9F9F0100F2401B /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = "../../Downloads/parse-library-1/ParseUI.framework"; sourceTree = "<group>"; };
+		7B4950EC1B9F9FBD00F2401B /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		7B4950EE1B9F9FC500F2401B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7B4950F01B9F9FCB00F2401B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7B4950F21B9F9FD200F2401B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7B4950F41B9F9FD900F2401B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7B4950F61B9F9FE500F2401B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7B4950F81B9F9FEA00F2401B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7B4950FA1B9F9FF200F2401B /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		7B4950FC1B9FA00800F2401B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		7B4950FE1B9FA01100F2401B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7B4951001B9FA02400F2401B /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		7B4951021B9FA02C00F2401B /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		7B4951041B9FA3AF00F2401B /* FriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
+		7B540DAD1BA920CC000316AA /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		7BA4D7A61BA2720500BDDF7F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7BA4D7A81BA2731000BDDF7F /* hotPhotato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hotPhotato.png; sourceTree = "<group>"; };
 		7BEC63001B9F9C0400BCCAB6 /* HotPhotatoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotPhotatoes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BEC63041B9F9C0400BCCAB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BEC63051B9F9C0400BCCAB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BEC63071B9F9C0400BCCAB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7BEC630A1B9F9C0400BCCAB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7BEC630C1B9F9C0400BCCAB6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7BEC630F1B9F9C0400BCCAB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7BEC63151B9F9C0400BCCAB6 /* HotPhotatoesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotPhotatoesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BEC631A1B9F9C0400BCCAB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BEC631B1B9F9C0400BCCAB6 /* HotPhotatoesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotPhotatoesTests.swift; sourceTree = "<group>"; };
+		7BF320E11BA9DF5F00B9D2AF /* HotPhotatoes-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HotPhotatoes-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +84,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B4951031B9FA02C00F2401B /* libsqlite3.dylib in Frameworks */,
+				7B4951011B9FA02400F2401B /* libz.dylib in Frameworks */,
+				7B4950FF1B9FA01100F2401B /* SystemConfiguration.framework in Frameworks */,
+				7B4950FD1B9FA00800F2401B /* StoreKit.framework in Frameworks */,
+				7B4950FB1B9F9FF200F2401B /* Social.framework in Frameworks */,
+				7B4950F91B9F9FEA00F2401B /* Security.framework in Frameworks */,
+				7B4950F71B9F9FE500F2401B /* QuartzCore.framework in Frameworks */,
+				7B4950F51B9F9FD900F2401B /* CoreLocation.framework in Frameworks */,
+				7B4950F31B9F9FD200F2401B /* CoreGraphics.framework in Frameworks */,
+				7B4950F11B9F9FCB00F2401B /* CFNetwork.framework in Frameworks */,
+				7B4950EF1B9F9FC500F2401B /* AudioToolbox.framework in Frameworks */,
+				7B4950ED1B9F9FBD00F2401B /* Accounts.framework in Frameworks */,
+				7B4950E51B9F9F0100F2401B /* Parse.framework in Frameworks */,
+				7B4950E61B9F9F0100F2401B /* ParseCrashReporting.framework in Frameworks */,
+				7B4950EA1B9F9F0100F2401B /* ParseUI.framework in Frameworks */,
+				7B4950E71B9F9F0100F2401B /* ParseFacebookUtils.framework in Frameworks */,
+				7B4950E41B9F9F0100F2401B /* Bolts.framework in Frameworks */,
+				7B4950E91B9F9F0100F2401B /* ParseTwitterUtils.framework in Frameworks */,
+				7B4950E81B9F9F0100F2401B /* ParseFacebookUtilsV4.framework in Frameworks */,
+				057ADE8A1FF8E32CCA3989DD /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +117,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D86B9CCF4CEBC6760719DB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				762DE12A957B533724D02D1F /* Pods.debug.xcconfig */,
+				0BF1E8E509953AB93762ADDC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7B4950EB1B9F9F4D00F2401B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B4951021B9FA02C00F2401B /* libsqlite3.dylib */,
+				7B4951001B9FA02400F2401B /* libz.dylib */,
+				7B4950FE1B9FA01100F2401B /* SystemConfiguration.framework */,
+				7B4950FC1B9FA00800F2401B /* StoreKit.framework */,
+				7B4950FA1B9F9FF200F2401B /* Social.framework */,
+				7B4950F81B9F9FEA00F2401B /* Security.framework */,
+				7B4950F61B9F9FE500F2401B /* QuartzCore.framework */,
+				7B4950F41B9F9FD900F2401B /* CoreLocation.framework */,
+				7B4950F21B9F9FD200F2401B /* CoreGraphics.framework */,
+				7B4950F01B9F9FCB00F2401B /* CFNetwork.framework */,
+				7B4950EE1B9F9FC500F2401B /* AudioToolbox.framework */,
+				7B4950EC1B9F9FBD00F2401B /* Accounts.framework */,
+				7B4950DD1B9F9F0100F2401B /* Bolts.framework */,
+				7B4950DE1B9F9F0100F2401B /* Parse.framework */,
+				7B4950DF1B9F9F0100F2401B /* ParseCrashReporting.framework */,
+				7B4950E01B9F9F0100F2401B /* ParseFacebookUtils.framework */,
+				7B4950E11B9F9F0100F2401B /* ParseFacebookUtilsV4.framework */,
+				7B4950E21B9F9F0100F2401B /* ParseTwitterUtils.framework */,
+				7B4950E31B9F9F0100F2401B /* ParseUI.framework */,
+				00362F380D237A4C5EA07C61 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7BEC62F71B9F9C0400BCCAB6 = {
 			isa = PBXGroup;
 			children = (
+				7B540DAD1BA920CC000316AA /* Podfile */,
+				7B4950EB1B9F9F4D00F2401B /* Frameworks */,
 				7BEC63021B9F9C0400BCCAB6 /* HotPhotatoes */,
 				7BEC63181B9F9C0400BCCAB6 /* HotPhotatoesTests */,
 				7BEC63011B9F9C0400BCCAB6 /* Products */,
+				7BA4D7A81BA2731000BDDF7F /* hotPhotato.png */,
+				3D86B9CCF4CEBC6760719DB8 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +178,12 @@
 		7BEC63021B9F9C0400BCCAB6 /* HotPhotatoes */ = {
 			isa = PBXGroup;
 			children = (
+				7BF320E11BA9DF5F00B9D2AF /* HotPhotatoes-Bridging-Header.h */,
 				7BEC63051B9F9C0400BCCAB6 /* AppDelegate.swift */,
 				7BEC63071B9F9C0400BCCAB6 /* ViewController.swift */,
-				7BEC63091B9F9C0400BCCAB6 /* Main.storyboard */,
+				7B0137B51B9FB0000014A4D4 /* SignUpController.swift */,
+				7BA4D7A61BA2720500BDDF7F /* Main.storyboard */,
+				7B4951041B9FA3AF00F2401B /* FriendViewController.swift */,
 				7BEC630C1B9F9C0400BCCAB6 /* Images.xcassets */,
 				7BEC630E1B9F9C0400BCCAB6 /* LaunchScreen.xib */,
 				7BEC63031B9F9C0400BCCAB6 /* Supporting Files */,
@@ -119,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7BEC631F1B9F9C0400BCCAB6 /* Build configuration list for PBXNativeTarget "HotPhotatoes" */;
 			buildPhases = (
+				DC6EEC9D0226CB6A2B91CE41 /* Check Pods Manifest.lock */,
 				7BEC62FC1B9F9C0400BCCAB6 /* Sources */,
 				7BEC62FD1B9F9C0400BCCAB6 /* Frameworks */,
 				7BEC62FE1B9F9C0400BCCAB6 /* Resources */,
+				F1AAB5AF9FBAA42EDAB64AEE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -143,7 +249,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				7BEC63171B9F9C0400BCCAB6 /* PBXTargetDependency */,
 			);
 			name = HotPhotatoesTests;
 			productName = HotPhotatoesTests;
@@ -192,9 +297,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BEC630B1B9F9C0400BCCAB6 /* Main.storyboard in Resources */,
+				7B540DAE1BA920CC000316AA /* Podfile in Resources */,
+				7BA4D7A71BA2720500BDDF7F /* Main.storyboard in Resources */,
 				7BEC63101B9F9C0400BCCAB6 /* LaunchScreen.xib in Resources */,
 				7BEC630D1B9F9C0400BCCAB6 /* Images.xcassets in Resources */,
+				7BA4D7A91BA2731000BDDF7F /* hotPhotato.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,13 +314,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DC6EEC9D0226CB6A2B91CE41 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F1AAB5AF9FBAA42EDAB64AEE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7BEC62FC1B9F9C0400BCCAB6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B4951051B9FA3AF00F2401B /* FriendViewController.swift in Sources */,
 				7BEC63081B9F9C0400BCCAB6 /* ViewController.swift in Sources */,
 				7BEC63061B9F9C0400BCCAB6 /* AppDelegate.swift in Sources */,
+				7B0137B61B9FB0000014A4D4 /* SignUpController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,23 +369,7 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		7BEC63171B9F9C0400BCCAB6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7BEC62FF1B9F9C0400BCCAB6 /* HotPhotatoes */;
-			targetProxy = 7BEC63161B9F9C0400BCCAB6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		7BEC63091B9F9C0400BCCAB6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7BEC630A1B9F9C0400BCCAB6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7BEC630E1B9F9C0400BCCAB6 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -295,6 +421,8 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "HotPhotatoes-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -333,6 +461,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "HotPhotatoes-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -340,21 +470,40 @@
 		};
 		7BEC63201B9F9C0400BCCAB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 762DE12A957B533724D02D1F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/FroehlingGallier/Downloads/parse-starter-project-1/ParseStarterProject",
+					"/Users/FroehlingGallier/Downloads/parse-library-1",
+				);
 				INFOPLIST_FILE = HotPhotatoes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		7BEC63211B9F9C0400BCCAB6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BF1E8E509953AB93762ADDC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/FroehlingGallier/Downloads/parse-starter-project-1/ParseStarterProject",
+					"/Users/FroehlingGallier/Downloads/parse-library-1",
+				);
 				INFOPLIST_FILE = HotPhotatoes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
@@ -411,6 +560,7 @@
 				7BEC63211B9F9C0400BCCAB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BEC63221B9F9C0400BCCAB6 /* Build configuration list for PBXNativeTarget "HotPhotatoesTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +569,7 @@
 				7BEC63241B9F9C0400BCCAB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
